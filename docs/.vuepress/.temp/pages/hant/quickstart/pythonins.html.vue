@@ -1,0 +1,17 @@
+<template><div><h1 id="安裝python並安裝機器人必需庫" tabindex="-1"><a class="header-anchor" href="#安裝python並安裝機器人必需庫" aria-hidden="true">#</a> 安裝python並安裝機器人必需庫</h1>
+<h2 id="安裝python" tabindex="-1"><a class="header-anchor" href="#安裝python" aria-hidden="true">#</a> 安裝Python</h2>
+<h3 id="windows" tabindex="-1"><a class="header-anchor" href="#windows" aria-hidden="true">#</a> Windows</h3>
+<p>在微軟商店下載<strong>python3.10或更高版本</strong>(因爲機器人需要的一些特性只有新版有)</p>
+<h3 id="linux" tabindex="-1"><a class="header-anchor" href="#linux" aria-hidden="true">#</a> Linux</h3>
+<p>Debian</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>apt install python3.10
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>RHEL</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>yum install python3.10  #建議先yum search python3.10一下是否存在www
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>沒錯，需要自己編譯源代碼<s>但是我懶得寫教程</s> ~(￣▽￣)~</p>
+<h2 id="安裝必需庫" tabindex="-1"><a class="header-anchor" href="#安裝必需庫" aria-hidden="true">#</a> 安裝必需庫</h2>
+<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>pip install creart &amp;&amp;
+pip install graia-saya &amp;&amp;
+pip install graia-Ariadne
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+
